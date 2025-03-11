@@ -1,0 +1,110 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.header-section{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px;
+      background-attachment: fixed;
+      z-index: 1;
+      position: sticky;
+      top: 0;
+      background-color: white;
+}
+.logo img{
+      width: 200px;
+}
+.navigation{
+      display: flex;
+      list-style: none;
+      align-items: center;
+      padding: 0 20px;
+      gap: 30px;
+}
+.tryCloud{
+      background-color: black;
+      padding: 10px;
+      color: white;
+      border-radius: 10px;
+
+}
+
+
+/* main section styling */
+.announecement{
+       border: 2px solid black;
+       border-radius: 50px;
+       width: 140px;
+       text-align: center;
+       justify-content: center;
+       margin: auto;
+       transform: translateY(40px);
+       padding: 5px;
+}
+.time{
+      text-align: center;
+      margin-top: 30px;
+}
+.image img {
+      width: 800px;
+      justify-content: center;
+      margin-left: 300px;
+      margin-top: 20px;
+}
+.intrducing{
+      text-align: center;
+      margin: auto;
+      justify-content: center;
+      font-size: 70px;
+      margin-top: 80px;
+      font-weight: 900;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+      width: 800px;
+      font-size: 22px;
+      margin: 10px;
+      padding: 10px;
+      justify-content: center;
+      margin: auto;
+}
+
+.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9{
+      margin: 20px;
+}
+
+.title,.title2{
+      font-size: 25px;
+      font-weight: 900;
+      margin-top: 5px;
+      margin-bottom: 20px;      
+}
+
+/* Footer Styling */
+.footer{
+      background-color: black;
+      color: white;
+      padding: 70px;
+      /* display: flex; */
+}
+.all-footers{
+      display: flex;
+      
+}
+.all-footers ul li {
+      list-style:  none;
+}
+
+.f1,.f2,.f3,.f4,.f5,.f6{
+      width: 250px;
+}
+
+.social{
+      color: white;
+      display: flex;
+}
